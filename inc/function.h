@@ -1,15 +1,18 @@
-#ifdef__FUNCTION_H__
-#define__FUNCTION_H__
+#ifndef __FUNCTION_H__
+#define __FUNCTION_H__
 
-#include<stdio.h>
+#include <stdio.h>
 
 #include<math.h>
-int addition(int num1,int num2);
-int subtraction(int num1,int num2);
-int division(int num1,int num2);
-int multiplication(int num1,int num2);
+int add(int input1,int input2);
+int subtract(int input1,int input2);
+int multiply(int input1,int input2);
+int divide(int input1,int input2);
+double squareroot(double triginput);
 int modulus(int input1,int input2);
-void power(int num,int pow);
-int factorial(int num);
+int fact(int input1);
+double cosine(double triginput);
+double sine(double triginput);
+int power(int input1,int input2);
 
 #endif
